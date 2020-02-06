@@ -39,7 +39,7 @@
 |user|integer|null: false, foreign_key: true|
 |group|integer|null: false, foreign_key:true|
 
-### Association
+
 - belongs_to :user
-- belongs_to :grop
+- belongs_to :group
 - belongs_to :group
