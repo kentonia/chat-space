@@ -2,6 +2,7 @@ html{
   color:#000;
   background:#FFF;
 }
+<<<<<<< Updated upstream
 /*
   TODO remove settings on BODY since we can't namespace it.
 */
@@ -9,6 +10,9 @@ html{
   TODO test putting a class on HEAD.
       - Fails on FF.
 */
+=======
+
+>>>>>>> Stashed changes
 body,
 div,
 dl,
@@ -34,6 +38,7 @@ p,
 blockquote,
 th,
 td {
+<<<<<<< Updated upstream
   margin:0;
   padding:0;
 }
@@ -48,6 +53,20 @@ img {
 /*
   TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
 */
+=======
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,
+img {
+    border:0;
+}
+
+>>>>>>> Stashed changes
 address,
 caption,
 cite,
@@ -57,18 +76,31 @@ em,
 strong,
 th,
 var {
+<<<<<<< Updated upstream
   font-style:normal;
   font-weight:normal;
+=======
+    font-style:normal;
+    font-weight:normal;
+>>>>>>> Stashed changes
 }
 
 ol,
 ul {
+<<<<<<< Updated upstream
   list-style:none;
+=======
+    list-style:none;
+>>>>>>> Stashed changes
 }
 
 caption,
 th {
+<<<<<<< Updated upstream
   text-align:left;
+=======
+    text-align:left;
+>>>>>>> Stashed changes
 }
 h1,
 h2,
@@ -76,6 +108,7 @@ h3,
 h4,
 h5,
 h6 {
+<<<<<<< Updated upstream
   font-size:100%;
   font-weight:normal;
 }
@@ -94,10 +127,31 @@ sup {
 }
 sub {
   vertical-align:text-bottom;
+=======
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,
+q:after {
+    content:'';
+}
+abbr,
+acronym {
+    border:0;
+    font-variant:normal;
+}
+
+sup {
+    vertical-align:text-top;
+}
+sub {
+    vertical-align:text-bottom;
+>>>>>>> Stashed changes
 }
 input,
 textarea,
 select {
+<<<<<<< Updated upstream
   font-family:inherit;
   font-size:inherit;
   font-weight:inherit;
@@ -113,4 +167,21 @@ legend {
   color:#000;
 }
 /* YUI CSS Detection Stamp */
+=======
+    font-family:inherit;
+    font-size:inherit;
+    font-weight:inherit;
+}
+
+input,
+textarea,
+select {
+    *font-size:100%;
+}
+
+legend {
+    color:#000;
+}
+
+>>>>>>> Stashed changes
 #yui3-css-stamp.cssreset { display: none; }
