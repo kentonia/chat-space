@@ -2,6 +2,7 @@
   .side-header
     .side-header__box
       %p.side-header__box__username
+        = current_user.name
         azarasi
       %ul.side-header__box__menu
 <<<<<<< Updated upstream
@@ -12,8 +13,8 @@
           = link_to "#" do
             = icon('fas', 'edit')
         %li.side-header__box__new-group
-          = link_to "#" do
-            = icon('fas', 'cog')
+          = link_to edit_user_path(current_user) do
+            = icon('fas', 'cog', class: 'icon')
   .groups
     = link_to "#", class:"group" do
       %p.group__group-name
