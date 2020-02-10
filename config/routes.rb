@@ -3,9 +3,3 @@ Rails.application.routes.draw do
   root "messages#index"
   resources :users, only: [:edit, :update]
 end
-  root "messages#index"
-end
-  get 'messages/index'
-
-  root "messages#index"
-end
