@@ -1,5 +1,6 @@
-@import "./reset";
+@import "reset";
+@import "modules/messages";
 @import "font-awesome-sprockets";
 @import "font-awesome";
-@import "./chat-side";
-@import "./chat-main";
+@import "modules/side_bar";
+@import "modules/main_bar";
