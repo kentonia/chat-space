@@ -19,6 +19,7 @@ class GroupsController < ApplicationController
 
   def edit
     @group = Group.find(params[:id])
+    # new,find,update,delete
   end
 
   def update
@@ -32,7 +33,7 @@ class GroupsController < ApplicationController
 
   private
   def group_params
-    params.require(:group).permit(:name, user_ids: [])
+    params.require(:group).permit(:name, user_ids: [] )
   end
 
 end
