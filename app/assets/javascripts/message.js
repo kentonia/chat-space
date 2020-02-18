@@ -2,11 +2,11 @@ $(function(){
   function buildHTML(message){
     var img = message.image ? `<img src= ${message.image}>` : "";
     var html = `<div class="message" data-message-id="${message.id}">
-                  <div class="message__upper-info">
-                    <div class="message__upper-info__talker">${message.user_name}</div>
-                    <div class="message__upper-info__date">${message.created_at}</div>
+                  <div class="upper-message">
+                    <div class="upper-message__user-name">${message.user_name}</div>
+                    <div class="upper-message__date">${message.created_at}</div>
                   </div>
-                  <div class="message__text">
+                  <div class="lower-message">
                     <p class="lower-message__content">${message.content}</p>
                     ${img}
                   </div>
